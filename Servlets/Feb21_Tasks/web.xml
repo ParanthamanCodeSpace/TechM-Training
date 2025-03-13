@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>serv</display-name>
+  <servlet>
+    	<servlet-name>jspcount.jsp</servlet-name>
+    	<jsp-file>/jspcount.jsp</jsp-file>
+   </servlet>
+   <servlet-mapping>
+    	<servlet-name>jspcount.jsp</servlet-name>
+   		<url-pattern>/jspcount/*</url-pattern>
+   </servlet-mapping>
+   
+   <servlet>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <servlet-class>myservpack5.HelloWorldServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloWorldServlet</servlet-name>
+        <url-pattern>/HelloWorldServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

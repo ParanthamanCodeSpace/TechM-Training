@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>serv</display-name>
+ 	<servlet>
+        <servlet-name>MyServlets</servlet-name>
+        <servlet-class>myservpack.MyServlets</servlet-class>  <!-- Ensure correct package name -->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlets</servlet-name>
+        <url-pattern>/myservlets</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>MyServlet1</servlet-name>
+        <servlet-class>myservpack.MyServlet1</servlet-class>  <!-- Ensure correct package name -->
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MyServlet1</servlet-name>
+        <url-pattern>/myservlet1</url-pattern>
+    </servlet-mapping>
+  </web-app>
