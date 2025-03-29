@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "97920420486",
+    "project_id": "gov-id-1c672",
+    "storage_bucket": "gov-id-1c672.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97920420486:android:1a8cac2fa98a720afadf07",
+        "android_client_info": {
+          "package_name": "com.example.gov_id"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVZNY6dlk9dXHpzOlmXvqxU87iXSuShtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

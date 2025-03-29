@@ -1,0 +1,17 @@
+{
+  "appTitle": "Gov ID Card Generator",
+  "register": "Register for ID Card",
+  "viewUsers": "View Registered Users",
+  "fullName": "Full Name",
+  "dob": "Date of Birth",
+  "address": "Address",
+  "registerSuccess": "User Registered Successfully!",
+  "password": "Password",
+  "email": "Email",
+  "noUsers": "No registered users found.",
+  "invalidEmail": "Invalid email format!",
+  "weakPassword": "Password is too weak!",
+  "login": "Login",
+  "fillAllFields": "Please fill all fields!",
+  "registerFailed": "registartion failed"
+}
