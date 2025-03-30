@@ -1,0 +1,76 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "airline": "Air India",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "10:00 AM",
+      "arrival": "12:00 PM",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "airline": "IndiGo",
+      "from": "Banglore",
+      "to": "Chennai",
+      "departure": "2:00 PM",
+      "arrival": "3:30 PM",
+      "price": 3000
+    },
+    {
+      "id": 3,
+      "airline": "Vistara",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "1:00 PM",
+      "arrival": "3:00 PM",
+      "price": 5200
+    },
+    {
+      "id": 4,
+      "airline": "SpiceJet",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "6:00 PM",
+      "arrival": "8:00 PM",
+      "price": 4800
+    },
+    {
+      "id": 5,
+      "airline": "GoAir",
+      "from": "Banglore",
+      "to": "Chennai",
+      "departure": "9:00 AM",
+      "arrival": "10:30 AM",
+      "price": 3100
+    },
+    {
+      "id": 6,
+      "airline": "AirAsia",
+      "from": "Banglore",
+      "to": "Chennai",
+      "departure": "5:00 PM",
+      "arrival": "6:15 PM",
+      "price": 2950
+    },
+    {
+      "id": 7,
+      "airline": "IndiGo",
+      "from": "Delhi",
+      "to": "Mumbai",
+      "departure": "8:30 AM",
+      "arrival": "10:30 AM",
+      "price": 5100
+    },
+    {
+      "id": 8,
+      "airline": "Vistara",
+      "from": "Banglore",
+      "to": "Chennai",
+      "departure": "7:00 PM",
+      "arrival": "8:30 PM",
+      "price": 3200
+    }
+  ]
+}
